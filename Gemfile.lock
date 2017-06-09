@@ -2,6 +2,7 @@ PATH
   remote: components/aca_shop_market
   specs:
     aca_shop_market (0.0.1)
+      mongoid (~> 5.0.1)
       rails (~> 4.2.7)
       slim (= 3.0.8)
 
@@ -46,6 +47,7 @@ GEM
     arel (6.0.4)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bson (4.2.1)
     builder (3.2.3)
     byebug (9.0.6)
     coffee-rails (4.1.1)
@@ -79,9 +81,17 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.2.0)
     minitest (5.10.2)
+    mongo (2.4.2)
+      bson (>= 4.2.1, < 5.0.0)
+    mongoid (5.0.2)
+      activemodel (~> 4.0)
+      mongo (~> 2.1)
+      origin (~> 2.1)
+      tzinfo (>= 0.3.37)
     multi_json (1.12.1)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
+    origin (2.3.1)
     rack (1.6.8)
     rack-test (0.6.3)
       rack (>= 1.0)

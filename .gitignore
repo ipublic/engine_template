@@ -15,3 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+/components/aca_shop_market/spec/dummy/log/*
+!/components/aca_shop_market/spec/dummy/.keep
+/components/aca_shop_market/spec/dummy/tmp
+
+# Ignore rspec output
+# /components/aca_shop_market/spec/examples.txt

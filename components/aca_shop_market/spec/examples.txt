@@ -1,4 +1,4 @@
 example_id                                            | status  | run_time        |
 ----------------------------------------------------- | ------- | --------------- |
 ./spec/models/aca_shop_market/address_spec.rb[1:1]    | pending | 0.00001 seconds |
-./spec/models/aca_shop_market/person_spec.rb[1:1:1:1] | passed  | 0.01105 seconds |
+./spec/models/aca_shop_market/person_spec.rb[1:1:1:1] | passed  | 0.00388 seconds |
